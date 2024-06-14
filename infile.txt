@@ -1,0 +1,23 @@
+apple orange mangoasd
+helloworld how are you
+
+
+
+if i == len(list1) and  j != len(list2):
+    for k in range(j , len(list1)-1):
+        new_list.append(list2[k])
+elif i != len(list1) and j == len(list2):
+    for k in range(i , len(list1)-1):
+        new_list.append(list1[k])
+else:
+    if list1[i] < list2[j]:
+        new_list.append(list1[i])
+        i += 1
+    elif list1[i] > list2[j]:
+        new_list.append(list2[j])
+        j += 1
+    else:
+        new_list.append(list1[i])
+        new_list.append(list2[j])
+        i += 1
+        j += 1
