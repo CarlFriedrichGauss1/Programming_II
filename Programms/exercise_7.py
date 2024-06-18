@@ -11,6 +11,6 @@ def function(list):
         
     return max_list
 
-print(function([1,2]))
+print(function([1,2,1,1,1,1,2,2,1,1,1,1,1,1,2]))
             
             

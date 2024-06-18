@@ -35,5 +35,5 @@ class Circle():
 
 c1 = Circle((1,2) , 2)
 c2 = Circle((1,2) , 2)
-point = (1.4 , 2.4)
+point = (3 , 2.5)
 print(c1.contains(point))
